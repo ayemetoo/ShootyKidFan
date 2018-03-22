@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/152/Downloads/ShootEmUp/tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="27" />
+   <wvobject fp_name="/tb/uut/display/rgb" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rgb[7:0]</obj_property>
+      <obj_property name="ObjectShortName">rgb[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/display/hc_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">hc_out[9:0]</obj_property>
+      <obj_property name="ObjectShortName">hc_out[9:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/display/vc_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">vc_out[9:0]</obj_property>
+      <obj_property name="ObjectShortName">vc_out[9:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/hsync" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">hsync</obj_property>
+      <obj_property name="ObjectShortName">hsync</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/vsync" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">vsync</obj_property>
+      <obj_property name="ObjectShortName">vsync</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/rst" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/a" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">a</obj_property>
+      <obj_property name="ObjectShortName">a</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/b" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">b</obj_property>
+      <obj_property name="ObjectShortName">b</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/pause" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">pause</obj_property>
+      <obj_property name="ObjectShortName">pause</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/display/game_start/x" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">x[9:0]</obj_property>
+      <obj_property name="ObjectShortName">x[9:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/display/game_start/y" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">y[9:0]</obj_property>
+      <obj_property name="ObjectShortName">y[9:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/display/game_start/game_display_on" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">game_display_on</obj_property>
+      <obj_property name="ObjectShortName">game_display_on</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/display/game_start/game_start_reg" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">game_start_reg</obj_property>
+      <obj_property name="ObjectShortName">game_start_reg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/display/game_start/rgb" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rgb[7:0]</obj_property>
+      <obj_property name="ObjectShortName">rgb[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/display/game_start/idle_time" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">idle_time[25:0]</obj_property>
+      <obj_property name="ObjectShortName">idle_time[25:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/display/game_start/count" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">count[2:0]</obj_property>
+      <obj_property name="ObjectShortName">count[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/display/game_start/tracker" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">tracker</obj_property>
+      <obj_property name="ObjectShortName">tracker</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/display/enemy/enemy_roam/game_start_on" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">game_start_on</obj_property>
+      <obj_property name="ObjectShortName">game_start_on</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/display/player/p_lives" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">p_lives[1:0]</obj_property>
+      <obj_property name="ObjectShortName">p_lives[1:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/display/enemy/enemy_roam/p_on" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">p_on</obj_property>
+      <obj_property name="ObjectShortName">p_on</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/display/enemy/enemy_roam/p_x" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">p_x[9:0]</obj_property>
+      <obj_property name="ObjectShortName">p_x[9:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/display/enemy/enemy_roam/p_y" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">p_y[9:0]</obj_property>
+      <obj_property name="ObjectShortName">p_y[9:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/display/enemy/enemy_roam/new_x" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">new_x[9:0]</obj_property>
+      <obj_property name="ObjectShortName">new_x[9:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/display/enemy/enemy_roam/new_y" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">new_y[9:0]</obj_property>
+      <obj_property name="ObjectShortName">new_y[9:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/display/enemy/enemy_roam/position_num" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">position_num[2:0]</obj_property>
+      <obj_property name="ObjectShortName">position_num[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/display/enemy/enemy_roam/rgb" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rgb[7:0]</obj_property>
+      <obj_property name="ObjectShortName">rgb[7:0]</obj_property>
+   </wvobject>
+</wave_config>

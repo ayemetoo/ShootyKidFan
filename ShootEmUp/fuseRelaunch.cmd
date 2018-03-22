@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "/home/ise/Xilinx_host/ShootEmUp/tb_enemy_wave_isim_beh.exe" -prj "/home/ise/Xilinx_host/ShootEmUp/tb_enemy_wave_beh.prj" "work.tb_enemy_wave" "work.glbl" 

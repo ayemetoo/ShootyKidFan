@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/Leila/Documents/CS35L/ShootEmUp/tb_enemy_roam_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_enemy_roam" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="16" />
+   <wvobject fp_name="/tb_enemy_roam/i" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_enemy_roam/is_active" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">is_active</obj_property>
+      <obj_property name="ObjectShortName">is_active</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_enemy_roam/e_r_on" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">e_r_on</obj_property>
+      <obj_property name="ObjectShortName">e_r_on</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_enemy_roam/rgb" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rgb[7:0]</obj_property>
+      <obj_property name="ObjectShortName">rgb[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_enemy_roam/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_enemy_roam/dclk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">dclk</obj_property>
+      <obj_property name="ObjectShortName">dclk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_enemy_roam/rst" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_enemy_roam/uut/position_num" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">position_num[2:0]</obj_property>
+      <obj_property name="ObjectShortName">position_num[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_enemy_roam/uut/new_x" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">new_x[9:0]</obj_property>
+      <obj_property name="ObjectShortName">new_x[9:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_enemy_roam/uut/new_y" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">new_y[9:0]</obj_property>
+      <obj_property name="ObjectShortName">new_y[9:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_enemy_roam/p_x" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">p_x[9:0]</obj_property>
+      <obj_property name="ObjectShortName">p_x[9:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_enemy_roam/p_y" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">p_y[9:0]</obj_property>
+      <obj_property name="ObjectShortName">p_y[9:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_enemy_roam/p_on" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">p_on</obj_property>
+      <obj_property name="ObjectShortName">p_on</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_enemy_roam/x" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">x[9:0]</obj_property>
+      <obj_property name="ObjectShortName">x[9:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_enemy_roam/y" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">y[9:0]</obj_property>
+      <obj_property name="ObjectShortName">y[9:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_enemy_roam/hit_r_enemy" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">hit_r_enemy</obj_property>
+      <obj_property name="ObjectShortName">hit_r_enemy</obj_property>
+   </wvobject>
+</wave_config>
